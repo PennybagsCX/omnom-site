@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/swap",
+      "destination": "https://omnom-swap.vercel.app/"
+    },
+    {
+      "source": "/swap/:match*",
+      "destination": "https://omnom-swap.vercel.app/:match*"
+    }
+  ]
+}
