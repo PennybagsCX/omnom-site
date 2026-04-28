@@ -1677,8 +1677,25 @@ a, button {
   }
 
   .nav-logo img {
-    max-width: 120px;
+    max-width: 100px;
     height: auto;
+  }
+  
+  /* Hero button - larger and more prominent on mobile */
+  .hero-buttons .button {
+    width: 100%;
+    max-width: 300px;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* Nav CTA button on mobile */
+  .min-navbar .nav-cta {
+    width: 100%;
+    max-width: 200px;
+    padding: 14px 20px;
+    font-size: 16px;
   }
 
   /* Touch-friendly social links in footer */
@@ -1763,8 +1780,17 @@ a, button {
 
   /* Hero heading scaling */
   .hero-heading {
-    font-size: clamp(28px, 8vw, 55px);
+    font-size: clamp(32px, 10vw, 55px);
     line-height: 1.15;
+  }
+  
+  .hero-main-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-overlay {
+    max-width: 40%;
   }
 
   /* How to buy cards full width on mobile */
@@ -1776,10 +1802,24 @@ a, button {
   .howto-card-link {
     display: block;
   }
+  
+  /* How to buy cards - improve sizing */
+  .howto-card {
+    margin-bottom: 15px;
+  }
+  
+  .howto-card:last-child {
+    margin-bottom: 0;
+  }
 
   /* Menu heading scaling */
   .menu-heading {
-    font-size: 16px;
+    font-size: 20px;
+  }
+  
+  /* Section headings */
+  .section-heading {
+    font-size: 28px;
   }
 
   /* Paragraph justified scaling */
