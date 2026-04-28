@@ -139,6 +139,25 @@ html {
   width: 100%;
 }
 
+/* Skip Navigation Link - Accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 10000;
+  transition: top 0.3s;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid #f5a623;
+}
+
 body {
   margin: 0;
   min-height: 100%;
@@ -709,6 +728,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  padding: 0 50px;
 }
 
 .slider {
@@ -719,6 +740,8 @@ p {
   margin-right: auto;
   background-color: transparent;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
 .slider-track {
@@ -804,6 +827,8 @@ p {
 .slider-arrow {
   flex-shrink: 0;
   cursor: pointer;
+  position: relative;
+  z-index: 10;
 }
 
 .circle-wrapper {
@@ -1523,11 +1548,50 @@ a, button {
   /* Slider */
   .slider {
     margin-top: 0;
+    max-width: 100%;
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+    padding: 0 44px;
+  }
+
+  .slider-wrapper {
+    position: relative;
+    padding: 0;
   }
 
   .slider-container {
     margin-top: 30px;
     padding: 16px 18px;
+    max-width: 100%;
+  }
+
+  .slider-arrow {
+    min-width: 44px;
+    width: 44px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .slider-arrow-left {
+    left: 0;
+  }
+
+  .slider-arrow-right {
+    right: 0;
+  }
+
+  .circle-wrapper {
+    min-width: 44px;
+    min-height: 44px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .discord-heading {
@@ -1727,9 +1791,12 @@ a, button {
 
 /* ============================================
    MOBILE MENU - Show min-navbar on mobile
+   Only hide min-navbar on desktop (min-width: 992px)
    ============================================ */
-.min-navbar {
-  display: none;
+@media (min-width: 992px) {
+  .min-navbar {
+    display: none;
+  }
 }
 
 /* ============================================
