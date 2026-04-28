@@ -3,3 +3,4 @@
 *.jpg.bak
 node_modules/
 .vercel/
+.vercel
