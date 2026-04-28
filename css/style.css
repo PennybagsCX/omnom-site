@@ -1432,10 +1432,29 @@ p {
   /* Slider text adjustments */
   .slide-link-block {
     padding: 10px;
+    width: 100%;
+    max-width: 100%;
   }
 
   .slider-container {
     padding: 20px 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Slider - fix horizontal overflow */
+  .slide {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .slider {
+    overflow: hidden;
+  }
+
+  .slider-wrapper {
+    overflow: hidden;
   }
 }
 
@@ -1545,11 +1564,29 @@ a, button {
     max-height: 60px;
   }
 
-  /* Slider */
+  /* Slider - fix horizontal overflow */
+  .slide {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .slide-link-block {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .slider-container {
+    margin-top: 30px;
+    padding: 16px 18px;
+    width: 100%;
+    max-width: 100%;
+  }
+
   .slider {
     margin-top: 0;
     max-width: 100%;
-    overflow: visible;
+    overflow: hidden;
     position: relative;
     z-index: 1;
     padding: 0 44px;
@@ -1558,12 +1595,7 @@ a, button {
   .slider-wrapper {
     position: relative;
     padding: 0;
-  }
-
-  .slider-container {
-    margin-top: 30px;
-    padding: 16px 18px;
-    max-width: 100%;
+    overflow: hidden;
   }
 
   .slider-arrow {

@@ -1,0 +1,138 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - heading "Let's eat SHIB for breakfast" [level=1] [ref=e6]:
+      - text: Let's eat SHIB
+      - text: for breakfast
+    - link "Buy OMNOM" [ref=e8] [cursor=pointer]:
+      - /url: https://omnom-swap.vercel.app/
+  - generic [ref=e10]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - heading "OMNOM Token" [level=1] [ref=e14]
+        - generic [ref=e15]:
+          - text: Shiba Inu (SHIB) is an ERC20 meme token that was created to kill Dogecoin. Doge Eat Doge (OMNOM) is fighting back - get the first meme token on Dogechain to eat SHIB.
+          - paragraph
+        - generic [ref=e16]:
+          - text: 69% of the OMNOM supply has been burned to Vitalik Buterin (Ethereum founder) on Dogechain. As long as he doesn't join Dogechain, we'll be alright.
+          - paragraph
+        - generic [ref=e17]:
+          - text: 31% of the OMNOM supply has been added to a pool on DogeSwap.
+          - paragraph
+      - img "Image" [ref=e18]
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading "How to Buy?" [level=1] [ref=e21]
+        - paragraph [ref=e22]:
+          - text: This guide will walk you through
+          - text: the simple steps to buy OMNOM
+      - generic [ref=e23]:
+        - link "Setup Wallet Begin by adding Dogechain network to your MetaMask wallet or any compatible wallet." [ref=e25] [cursor=pointer]:
+          - /url: https://chainlist.org/chain/2000
+          - generic [ref=e26]:
+            - heading "Setup Wallet" [level=3] [ref=e28]
+            - paragraph [ref=e29]: Begin by adding Dogechain network to your MetaMask wallet or any compatible wallet.
+        - link "Bridge Once your wallet is set up, it's time to bridge DOGE to your wallet using the official Dogechain bridge." [ref=e31] [cursor=pointer]:
+          - /url: https://bridge.dogechain.dog/bridge
+          - generic [ref=e32]:
+            - heading "Bridge" [level=3] [ref=e34]
+            - paragraph [ref=e35]: Once your wallet is set up, it's time to bridge DOGE to your wallet using the official Dogechain bridge.
+        - link "Buy OMNOM Now that your wallet is funded, you're ready to buy OMNOM! Head over to the omnomswap." [ref=e37] [cursor=pointer]:
+          - /url: https://omnom-swap.vercel.app/
+          - generic [ref=e38]:
+            - heading "Buy OMNOM" [level=3] [ref=e40]
+            - paragraph [ref=e41]: Now that your wallet is funded, you're ready to buy OMNOM! Head over to the omnomswap.
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Doge Confused?" [level=1] [ref=e44]
+        - paragraph [ref=e45]: We've got a vibrant community ready to answer your questions. Head over and join the pack!
+      - generic [ref=e46]:
+        - button "Previous slide" [ref=e47] [cursor=pointer]:
+          - img "Previous" [ref=e49]
+        - generic [ref=e51]:
+          - link "Omnom Telegram Chat directly with the pawsome community. Get real-time updates, participate in discussions, and find answers to your questions." [ref=e53] [cursor=pointer]:
+            - /url: https://t.me/omnomtoken_dc
+            - generic [ref=e55]:
+              - heading "Omnom Telegram" [level=3] [ref=e56]
+              - paragraph [ref=e57]: Chat directly with the pawsome community. Get real-time updates, participate in discussions, and find answers to your questions.
+          - link "Omnom Reddit Join the discussion on Reddit! Dive into threads, ask questions, and connect with others who are as passionate about OMNOM as you are." [ref=e59] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/omnomtoken
+            - generic [ref=e61]:
+              - heading "Omnom Reddit" [level=3] [ref=e62]
+              - paragraph [ref=e63]: Join the discussion on Reddit! Dive into threads, ask questions, and connect with others who are as passionate about OMNOM as you are.
+        - button "Next slide" [ref=e64] [cursor=pointer]:
+          - img "Next" [ref=e66]
+      - generic [ref=e67]:
+        - button "Go to slide 1" [ref=e68] [cursor=pointer]
+        - button "Go to slide 2" [ref=e69] [cursor=pointer]
+    - generic [ref=e71]:
+      - heading "Partners & Listings" [level=1] [ref=e73]
+      - generic [ref=e74]:
+        - link "Dogechain" [ref=e76] [cursor=pointer]:
+          - /url: https://dogechain.dog/
+          - img "Dogechain" [ref=e79]
+        - link "Dogetools" [ref=e81] [cursor=pointer]:
+          - /url: https://www.dogetools.dog/
+          - img "Dogetools" [ref=e84]
+        - link "MEXC" [ref=e86] [cursor=pointer]:
+          - /url: https://www.mexc.com/register?inviteCode=mexc-1Unhh
+          - img "MEXC" [ref=e89]
+        - link "Coinmarketcap" [ref=e91] [cursor=pointer]:
+          - /url: https://coinmarketcap.com/currencies/doge-eat-doge
+          - img "Coinmarketcap" [ref=e94]
+        - link "Coingecko" [ref=e96] [cursor=pointer]:
+          - /url: https://www.coingecko.com/en/coins/doge-eat-doge
+          - img "Coingecko" [ref=e99]
+        - link "BitgetWallet" [ref=e101] [cursor=pointer]:
+          - /url: https://web3.bitget.com/
+          - img "BitgetWallet" [ref=e104]
+        - link "Rabby" [ref=e106] [cursor=pointer]:
+          - /url: https://rabby.io/
+          - img "Rabby" [ref=e109]
+  - contentinfo [ref=e110]:
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - link [ref=e114] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e115]:
+          - link "Twitter" [ref=e116] [cursor=pointer]:
+            - /url: https://twitter.com/omnomtoken
+          - link "Telegram" [ref=e117] [cursor=pointer]:
+            - /url: https://t.me/omnomtoken_dc
+          - link "Reddit" [ref=e118] [cursor=pointer]:
+            - /url: http://reddit.com/r/omnomtoken
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - generic [ref=e121]: Doge Eat Doge (OMNOM)
+          - paragraph [ref=e122]:
+            - text: The SHIB killer; the first meme token in its
+            - text: rightful home on Dogechain.
+        - generic [ref=e123]:
+          - generic [ref=e124]: Navigate
+          - link "Home" [ref=e125] [cursor=pointer]:
+            - /url: /
+          - link "Memes" [ref=e126] [cursor=pointer]:
+            - /url: /meme-section
+        - generic [ref=e127]:
+          - generic [ref=e128]: Ecosystem
+          - link "Omnomswap" [ref=e129] [cursor=pointer]:
+            - /url: https://omnom-swap.vercel.app/
+        - generic [ref=e130]:
+          - generic [ref=e131]: Get OMNOM
+          - link "Omnomswap" [ref=e132] [cursor=pointer]:
+            - /url: https://omnom-swap.vercel.app/
+          - link "MEXC" [ref=e133] [cursor=pointer]:
+            - /url: https://www.mexc.com/exchange/OMNOM_USDT
+        - generic [ref=e134]:
+          - generic [ref=e135]: Resources
+          - link "Contract" [ref=e136] [cursor=pointer]:
+            - /url: https://explorer.dogechain.dog/address/0xe3fcA919883950c5cD468156392a6477Ff5d18de
+          - link "Partnership" [ref=e137] [cursor=pointer]:
+            - /url: mailto:team@omnomtoken.dog
+          - link "Donate" [ref=e138] [cursor=pointer]:
+            - /url: https://github.com/omnomcommunity/Donations
+      - generic [ref=e140]:
+        - heading "Made with" [level=1] [ref=e141]
+        - heading "by Omnom Community" [level=1] [ref=e143]:
+          - text: by
+          - link "Omnom Community" [ref=e144] [cursor=pointer]:
+            - /url: https://github.com/omnomcommunity

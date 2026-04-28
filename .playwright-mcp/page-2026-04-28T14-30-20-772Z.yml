@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link [ref=e10] [cursor=pointer]:
+              - /url: /deployments
+            - button [ref=e14] [cursor=pointer]:
+              - img [ref=e16]
+          - button "Find… F" [ref=e19]:
+            - generic [ref=e21]:
+              - img [ref=e23]
+              - generic [ref=e25]: Find…
+              - generic [ref=e27]: F
+        - navigation [ref=e29]:
+          - generic [ref=e32]:
+            - link "Projects" [ref=e33] [cursor=pointer]:
+              - /url: /deployments
+              - img [ref=e35]
+              - generic [ref=e38]: Projects
+            - link "Deployments" [ref=e39] [cursor=pointer]:
+              - /url: /deployments/~/deployments
+              - img [ref=e41]
+              - generic [ref=e44]: Deployments
+            - link "Logs" [ref=e45] [cursor=pointer]:
+              - /url: /deployments/~/logs
+              - img [ref=e47]
+              - generic [ref=e50]: Logs
+            - link "Analytics" [ref=e51] [cursor=pointer]:
+              - /url: /deployments/~/analytics
+              - img [ref=e53]
+              - generic [ref=e56]: Analytics
+            - link "Speed Insights" [ref=e57] [cursor=pointer]:
+              - /url: /deployments/~/speed-insights
+              - img [ref=e59]
+              - generic [ref=e62]: Speed Insights
+            - link "Observability" [ref=e63] [cursor=pointer]:
+              - /url: /deployments/~/observability
+              - img [ref=e65]
+              - generic [ref=e68]: Observability
+              - img [ref=e70]
+            - link "Firewall" [ref=e72] [cursor=pointer]:
+              - /url: /deployments/~/firewall
+              - img [ref=e74]
+              - generic [ref=e78]: Firewall
+            - link "CDN" [ref=e79] [cursor=pointer]:
+              - /url: /deployments/~/cdn
+              - img [ref=e81]
+              - generic [ref=e84]: CDN
+            - separator [ref=e85]
+            - link "Environment Variables" [ref=e86] [cursor=pointer]:
+              - /url: /deployments/~/settings/environment-variables
+              - img [ref=e88]
+              - generic [ref=e91]: Environment Variables
+            - link "Domains" [ref=e92] [cursor=pointer]:
+              - /url: /deployments/~/domains
+              - img [ref=e94]
+              - generic [ref=e97]: Domains
+            - link "Integrations" [ref=e98] [cursor=pointer]:
+              - /url: /deployments/~/integrations
+              - img [ref=e100]
+              - generic [ref=e103]: Integrations
+            - link "Storage" [ref=e104] [cursor=pointer]:
+              - /url: /deployments/~/stores
+              - img [ref=e106]
+              - generic [ref=e109]: Storage
+            - link "Flags" [ref=e110] [cursor=pointer]:
+              - /url: /deployments/~/experimentation/collections
+              - img [ref=e112]
+              - generic [ref=e115]: Flags
+            - link "Agent" [ref=e116] [cursor=pointer]:
+              - /url: /deployments/~/agent
+              - img [ref=e118]
+              - generic [ref=e121]: Agent
+              - img [ref=e123]
+            - link "AI Gateway" [ref=e125] [cursor=pointer]:
+              - /url: /deployments/~/ai-gateway
+              - img [ref=e127]
+              - generic [ref=e130]: AI Gateway
+              - img [ref=e132]
+            - link "Sandboxes" [ref=e134] [cursor=pointer]:
+              - /url: /deployments/~/sandboxes
+              - img [ref=e136]
+              - generic [ref=e139]: Sandboxes
+            - link "Workflows" [ref=e140] [cursor=pointer]:
+              - /url: /deployments/~/workflows
+              - img [ref=e142]
+              - generic [ref=e145]: Workflows
+            - separator [ref=e146]
+            - link "Usage" [ref=e147] [cursor=pointer]:
+              - /url: /deployments/~/usage
+              - img [ref=e149]
+              - generic [ref=e152]: Usage
+            - link "Support" [ref=e153] [cursor=pointer]:
+              - /url: /deployments/~/support
+              - img [ref=e155]
+              - generic [ref=e158]: Support
+            - link "Settings" [ref=e159] [cursor=pointer]:
+              - /url: /deployments/~/settings
+              - img [ref=e161]
+              - generic [ref=e164]: Settings
+              - img [ref=e166]
+        - generic [ref=e170]:
+          - button [disabled]:
+            - img
+            - generic:
+              - img
+          - img [ref=e173]
+      - button [ref=e176] [cursor=pointer]:
+        - img [ref=e177]
+    - generic [ref=e180]:
+      - generic [ref=e181]:
+        - button "All projects" [ref=e185] [cursor=pointer]:
+          - generic [ref=e186]: All projects
+          - img [ref=e188]
+        - generic [ref=e192]: Overview
+        - button "Open page actions menu" [ref=e194] [cursor=pointer]:
+          - img [ref=e196]
+      - generic [ref=e201]:
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - searchbox "Search" [ref=e205]
+            - img [ref=e207]
+          - button "Filter and Sort Projects" [ref=e209] [cursor=pointer]:
+            - img [ref=e211]
+        - generic [ref=e216]:
+          - list [ref=e223]:
+            - listitem [ref=e224]
+            - listitem [ref=e230]
+            - listitem [ref=e236]
+          - list [ref=e244]:
+            - listitem [ref=e245]
+            - listitem [ref=e251]

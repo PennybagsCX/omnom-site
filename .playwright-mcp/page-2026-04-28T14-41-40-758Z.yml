@@ -1,0 +1,424 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FPennybagsCX%2Fomnom-site
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=PennybagsCX%2Fomnom-site
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "PennybagsCX" [ref=e70] [cursor=pointer]:
+            - /url: /PennybagsCX
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "omnom-site" [ref=e73] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FPennybagsCX%2Fomnom-site
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 0" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FPennybagsCX%2Fomnom-site
+                - img [ref=e82]
+                - text: Fork
+                - generic "0" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FPennybagsCX%2Fomnom-site
+                - img [ref=e88]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e90]: "0"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests" [ref=e105] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e141]:
+      - heading "PennybagsCX/omnom-site" [level=1] [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - button "main branch" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - generic [ref=e154]:
+                    - img [ref=e156]
+                    - generic [ref=e159]: main
+                  - generic:
+                    - img
+              - generic [ref=e160]:
+                - link "1 Branch" [ref=e161] [cursor=pointer]:
+                  - /url: /PennybagsCX/omnom-site/branches
+                  - generic [ref=e162]:
+                    - generic:
+                      - img
+                    - generic [ref=e164]:
+                      - strong [ref=e165]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e166] [cursor=pointer]:
+                  - /url: /PennybagsCX/omnom-site/tags
+                  - generic [ref=e167]:
+                    - generic:
+                      - img
+                    - generic [ref=e169]:
+                      - strong [ref=e170]: "0"
+                      - text: Tags
+            - generic [ref=e171]:
+              - generic [ref=e175]:
+                - img [ref=e177]
+                - combobox "Go to file" [ref=e179]
+              - button "Code" [ref=e180] [cursor=pointer]:
+                - generic [ref=e181]:
+                  - generic:
+                    - img
+                  - generic [ref=e182]: Code
+                  - generic:
+                    - img
+          - generic [ref=e184]:
+            - heading "Folders and files" [level=2] [ref=e185]
+            - table "Folders and files" [ref=e186]:
+              - rowgroup:
+                - row "Name Last commit message Last commit date":
+                  - columnheader "Name"
+                  - columnheader "Last commit message":
+                    - generic "Last commit message"
+                  - columnheader "Last commit date":
+                    - generic "Last commit date"
+              - rowgroup [ref=e187]:
+                - row "Latest commit PennybagsCX commits by PennybagsCX Trigger fresh deployment success Commit 4d00b39 · Apr 28, 202611 minutes ago History 4 Commits" [ref=e188]:
+                  - cell "Latest commit PennybagsCX commits by PennybagsCX Trigger fresh deployment success Commit 4d00b39 · Apr 28, 202611 minutes ago History 4 Commits" [ref=e189]:
+                    - generic [ref=e190]:
+                      - heading "Latest commit" [level=2] [ref=e191]
+                      - generic [ref=e192]:
+                        - generic [ref=e194]:
+                          - link "PennybagsCX" [ref=e195] [cursor=pointer]:
+                            - /url: /PennybagsCX
+                            - img "PennybagsCX" [ref=e196]
+                          - link "commits by PennybagsCX" [ref=e197] [cursor=pointer]:
+                            - /url: /PennybagsCX/omnom-site/commits?author=PennybagsCX
+                            - text: PennybagsCX
+                        - generic [ref=e198]:
+                          - link "Trigger fresh deployment" [ref=e201] [cursor=pointer]:
+                            - /url: /PennybagsCX/omnom-site/commit/4d00b3919e0177b1ec108471b5ffe6fb31bad0d9
+                          - button "success" [ref=e202] [cursor=pointer]:
+                            - img [ref=e203]
+                      - generic [ref=e205]:
+                        - generic [ref=e207]:
+                          - link "Commit 4d00b39" [ref=e208] [cursor=pointer]:
+                            - /url: /PennybagsCX/omnom-site/commit/4d00b3919e0177b1ec108471b5ffe6fb31bad0d9
+                            - text: 4d00b39
+                          - text: ·
+                          - generic "Apr 28, 2026, 10:29 AM EDT" [ref=e209]: Apr 28, 202611 minutes ago
+                        - generic [ref=e210]:
+                          - heading "History" [level=2] [ref=e211]
+                          - link "4 Commits" [ref=e212] [cursor=pointer]:
+                            - /url: /PennybagsCX/omnom-site/commits/main/
+                            - generic [ref=e213]:
+                              - generic:
+                                - img
+                              - generic [ref=e214]: 4 Commits
+                - row ".playwright-mcp, (Directory) Force redeploy - verify BUY links point to omnom-swap.vercel.app Apr 28, 202634 minutes ago" [ref=e215]:
+                  - cell ".playwright-mcp, (Directory)" [ref=e216]:
+                    - generic [ref=e217]:
+                      - img [ref=e218]
+                      - link ".playwright-mcp, (Directory)" [ref=e223] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/tree/main/.playwright-mcp
+                        - text: .playwright-mcp
+                  - cell "Force redeploy - verify BUY links point to omnom-swap.vercel.app" [ref=e224]:
+                    - link "Force redeploy - verify BUY links point to omnom-swap.vercel.app" [ref=e227] [cursor=pointer]:
+                      - /url: /PennybagsCX/omnom-site/commit/aeae7dd201d026b4b93232e89c8d0e7a2e76ccf5
+                  - cell "Apr 28, 202634 minutes ago" [ref=e228]:
+                    - generic [ref=e229]: Apr 28, 202634 minutes ago
+                - 'row "css, (Directory) Initial commit: OMNOM site duplicate Apr 15, 20262 weeks ago" [ref=e230]':
+                  - cell "css, (Directory)" [ref=e231]:
+                    - generic [ref=e232]:
+                      - img [ref=e233]
+                      - link "css, (Directory)" [ref=e238] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/tree/main/css
+                        - text: css
+                  - 'cell "Initial commit: OMNOM site duplicate" [ref=e239]':
+                    - 'link "Initial commit: OMNOM site duplicate" [ref=e242] [cursor=pointer]':
+                      - /url: /PennybagsCX/omnom-site/commit/e77bd825c0bd625d98316b81b50290365d02caae
+                  - cell "Apr 15, 20262 weeks ago" [ref=e243]:
+                    - generic [ref=e244]: Apr 15, 20262 weeks ago
+                - 'row "fonts, (Directory) Initial commit: OMNOM site duplicate Apr 15, 20262 weeks ago" [ref=e245]':
+                  - cell "fonts, (Directory)" [ref=e246]:
+                    - generic [ref=e247]:
+                      - img [ref=e248]
+                      - link "fonts, (Directory)" [ref=e253] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/tree/main/fonts
+                        - text: fonts
+                  - 'cell "Initial commit: OMNOM site duplicate" [ref=e254]':
+                    - 'link "Initial commit: OMNOM site duplicate" [ref=e257] [cursor=pointer]':
+                      - /url: /PennybagsCX/omnom-site/commit/e77bd825c0bd625d98316b81b50290365d02caae
+                  - cell "Apr 15, 20262 weeks ago" [ref=e258]:
+                    - generic [ref=e259]: Apr 15, 20262 weeks ago
+                - 'row "images, (Directory) Initial commit: OMNOM site duplicate Apr 15, 20262 weeks ago" [ref=e260]':
+                  - cell "images, (Directory)" [ref=e261]:
+                    - generic [ref=e262]:
+                      - img [ref=e263]
+                      - link "images, (Directory)" [ref=e268] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/tree/main/images
+                        - text: images
+                  - 'cell "Initial commit: OMNOM site duplicate" [ref=e269]':
+                    - 'link "Initial commit: OMNOM site duplicate" [ref=e272] [cursor=pointer]':
+                      - /url: /PennybagsCX/omnom-site/commit/e77bd825c0bd625d98316b81b50290365d02caae
+                  - cell "Apr 15, 20262 weeks ago" [ref=e273]:
+                    - generic [ref=e274]: Apr 15, 20262 weeks ago
+                - 'row "js, (Directory) Initial commit: OMNOM site duplicate Apr 15, 20262 weeks ago" [ref=e275]':
+                  - cell "js, (Directory)" [ref=e276]:
+                    - generic [ref=e277]:
+                      - img [ref=e278]
+                      - link "js, (Directory)" [ref=e283] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/tree/main/js
+                        - text: js
+                  - 'cell "Initial commit: OMNOM site duplicate" [ref=e284]':
+                    - 'link "Initial commit: OMNOM site duplicate" [ref=e287] [cursor=pointer]':
+                      - /url: /PennybagsCX/omnom-site/commit/e77bd825c0bd625d98316b81b50290365d02caae
+                  - cell "Apr 15, 20262 weeks ago" [ref=e288]:
+                    - generic [ref=e289]: Apr 15, 20262 weeks ago
+                - row "meme-section, (Directory) Update BUY/OMNOM links from /swap to https://omnom-swap.vercel.app Apr 28, 202638 minutes ago" [ref=e290]:
+                  - cell "meme-section, (Directory)" [ref=e291]:
+                    - generic [ref=e292]:
+                      - img [ref=e293]
+                      - link "meme-section, (Directory)" [ref=e298] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/tree/main/meme-section
+                        - text: meme-section
+                  - cell "Update BUY/OMNOM links from /swap to https://omnom-swap.vercel.app" [ref=e299]:
+                    - generic [ref=e301]:
+                      - link "Update BUY/OMNOM links from /swap to" [ref=e302] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/commit/5de92769ce61115d1fc8197066a802aa4f87d143
+                      - link "https://omnom-swap.vercel.app" [ref=e303] [cursor=pointer]:
+                        - /url: https://omnom-swap.vercel.app
+                  - cell "Apr 28, 202638 minutes ago" [ref=e304]:
+                    - generic [ref=e305]: Apr 28, 202638 minutes ago
+                - row ".gitignore, (File) Force redeploy - verify BUY links point to omnom-swap.vercel.app Apr 28, 202634 minutes ago" [ref=e306]:
+                  - cell ".gitignore, (File)" [ref=e307]:
+                    - generic [ref=e308]:
+                      - img [ref=e309]
+                      - link ".gitignore, (File)" [ref=e314] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/blob/main/.gitignore
+                        - text: .gitignore
+                  - cell "Force redeploy - verify BUY links point to omnom-swap.vercel.app" [ref=e315]:
+                    - link "Force redeploy - verify BUY links point to omnom-swap.vercel.app" [ref=e318] [cursor=pointer]:
+                      - /url: /PennybagsCX/omnom-site/commit/aeae7dd201d026b4b93232e89c8d0e7a2e76ccf5
+                  - cell "Apr 28, 202634 minutes ago" [ref=e319]:
+                    - generic [ref=e320]: Apr 28, 202634 minutes ago
+                - row "index.html, (File) Trigger fresh deployment Apr 28, 202611 minutes ago" [ref=e321]:
+                  - cell "index.html, (File)" [ref=e322]:
+                    - generic [ref=e323]:
+                      - img [ref=e324]
+                      - link "index.html, (File)" [ref=e329] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/blob/main/index.html
+                        - text: index.html
+                  - cell "Trigger fresh deployment" [ref=e330]:
+                    - link "Trigger fresh deployment" [ref=e333] [cursor=pointer]:
+                      - /url: /PennybagsCX/omnom-site/commit/4d00b3919e0177b1ec108471b5ffe6fb31bad0d9
+                  - cell "Apr 28, 202611 minutes ago" [ref=e334]:
+                    - generic [ref=e335]: Apr 28, 202611 minutes ago
+                - 'row "vercel.json, (File) Initial commit: OMNOM site duplicate Apr 15, 20262 weeks ago" [ref=e336]':
+                  - cell "vercel.json, (File)" [ref=e337]:
+                    - generic [ref=e338]:
+                      - img [ref=e339]
+                      - link "vercel.json, (File)" [ref=e344] [cursor=pointer]:
+                        - /url: /PennybagsCX/omnom-site/blob/main/vercel.json
+                        - text: vercel.json
+                  - 'cell "Initial commit: OMNOM site duplicate" [ref=e345]':
+                    - 'link "Initial commit: OMNOM site duplicate" [ref=e348] [cursor=pointer]':
+                      - /url: /PennybagsCX/omnom-site/commit/e77bd825c0bd625d98316b81b50290365d02caae
+                  - cell "Apr 15, 20262 weeks ago" [ref=e349]:
+                    - generic [ref=e350]: Apr 15, 20262 weeks ago
+        - generic [ref=e354]:
+          - generic [ref=e357]:
+            - heading "About" [level=2] [ref=e358]
+            - paragraph [ref=e359]: OMNOM - Doge Eat Doge website
+            - generic [ref=e360]:
+              - img [ref=e361]
+              - link "omnom-site.vercel.app" [ref=e364] [cursor=pointer]:
+                - /url: https://omnom-site.vercel.app
+            - link "Activity" [ref=e366] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/activity
+              - img [ref=e367]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e369]
+            - link "0 stars" [ref=e371] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/stargazers
+              - img [ref=e372]
+              - strong [ref=e374]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e375]
+            - link "0 watching" [ref=e377] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/watchers
+              - img [ref=e378]
+              - strong [ref=e380]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e381]
+            - link "0 forks" [ref=e383] [cursor=pointer]:
+              - /url: /PennybagsCX/omnom-site/forks
+              - img [ref=e384]
+              - strong [ref=e386]: "0"
+              - text: forks
+            - link "Report repository" [ref=e388] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FPennybagsCX%2Fomnom-site&report=PennybagsCX+%28user%29
+          - generic [ref=e390]:
+            - heading "Releases" [level=2] [ref=e391]:
+              - link "Releases" [ref=e392] [cursor=pointer]:
+                - /url: /PennybagsCX/omnom-site/releases
+            - generic [ref=e393]: No releases published
+          - generic [ref=e395]:
+            - heading "Packages" [level=2] [ref=e396]:
+              - link "Packages" [ref=e397] [cursor=pointer]:
+                - /url: /users/PennybagsCX/packages?repo_name=omnom-site
+            - generic [ref=e398]: No packages published
+          - generic [ref=e400]:
+            - heading "Contributors 1" [level=2] [ref=e401]:
+              - link "Contributors 1" [ref=e402] [cursor=pointer]:
+                - /url: /PennybagsCX/omnom-site/graphs/contributors
+                - text: Contributors
+                - generic "1" [ref=e403]
+            - list [ref=e404]:
+              - listitem [ref=e405]:
+                - link "@PennybagsCX" [ref=e406] [cursor=pointer]:
+                  - /url: https://github.com/PennybagsCX
+                  - img "@PennybagsCX" [ref=e407]
+                - link "PennybagsCX @PennybagsCX" [ref=e409] [cursor=pointer]:
+                  - /url: https://github.com/PennybagsCX
+                  - strong [ref=e410]: PennybagsCX
+                  - text: "@PennybagsCX"
+          - generic [ref=e412]:
+            - heading "Languages" [level=2] [ref=e413]
+            - list [ref=e419]:
+              - listitem [ref=e420]:
+                - link "HTML 45.1%" [ref=e421] [cursor=pointer]:
+                  - /url: /PennybagsCX/omnom-site/search?l=html
+                  - img [ref=e422]
+                  - generic [ref=e424]: HTML
+                  - generic [ref=e425]: 45.1%
+              - listitem [ref=e426]:
+                - link "CSS 42.1%" [ref=e427] [cursor=pointer]:
+                  - /url: /PennybagsCX/omnom-site/search?l=css
+                  - img [ref=e428]
+                  - generic [ref=e430]: CSS
+                  - generic [ref=e431]: 42.1%
+              - listitem [ref=e432]:
+                - link "JavaScript 12.8%" [ref=e433] [cursor=pointer]:
+                  - /url: /PennybagsCX/omnom-site/search?l=javascript
+                  - img [ref=e434]
+                  - generic [ref=e436]: JavaScript
+                  - generic [ref=e437]: 12.8%
+  - contentinfo [ref=e439]:
+    - heading "Footer" [level=2] [ref=e440]
+    - generic [ref=e441]:
+      - generic [ref=e442]:
+        - link "GitHub Homepage" [ref=e443] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e444]
+        - generic [ref=e446]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e447]:
+        - heading "Footer navigation" [level=3] [ref=e448]
+        - list "Footer navigation" [ref=e449]:
+          - listitem [ref=e450]:
+            - link "Terms" [ref=e451] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e452]:
+            - link "Privacy" [ref=e453] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e454]:
+            - link "Security" [ref=e455] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e456]:
+            - link "Status" [ref=e457] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e458]:
+            - link "Community" [ref=e459] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e460]:
+            - link "Docs" [ref=e461] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e462]:
+            - link "Contact" [ref=e463] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e464]:
+            - button "Manage cookies" [ref=e466] [cursor=pointer]
+          - listitem [ref=e467]:
+            - button "Do not share my personal information" [ref=e469] [cursor=pointer]
